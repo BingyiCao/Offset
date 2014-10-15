@@ -18,6 +18,6 @@ public abstract class Player {
     
     // Return: the next position
     // my position: pipers[id-1]
-    public abstract movePair move(Point[] grid, Pair pr, ArrayList<ArrayList> history); 
+    public abstract movePair move(Point[] grid, Pair pr, Pair pr0, ArrayList<ArrayList> history); 
 
 }
